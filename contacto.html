@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contáctame</title>
+</head>
+<body>
+    <h1> Formulario de contacto</h1>
+  <form action="index.html">
+
+    <div>
+      <label for="nombre"><strong>Nombre y empresa:</strong> </label>
+      <br>
+      <input type="text" name="nombre" required>
+    </div>
+
+    <div>
+      <label for="correo"><strong>Correo electronico:</strong> </label>
+      <br>
+      <input type="text" name="correo" required>
+    </div>  
+    <div>
+        <label for="telefono"><strong>Numero de contacto: (123456789)</strong> </label>
+        <br>
+        <input type="number" name="telefono">
+      </div>
+    <div>
+        <h4>¿Por donde quiere que lo contacte?</h3>
+      <input type="radio" name="radio">
+      <label for=""><strong>Correo electronico</strong></label>
+
+      <input type="radio" name="radio">
+      <label for=""><strong>Numero telefonico</strong></label>
+    </div>
+    <br>
+    <br>
+
+    <button type="submit" class="enviarinfo"> <strong>Enviar</strong></button>
+  </form>
+
+</body>
+</html>
